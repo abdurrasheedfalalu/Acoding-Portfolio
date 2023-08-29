@@ -143,12 +143,12 @@ nav {
 }
 
 .main_section-title h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .main_section-title span {
     color: var(--color-green);
-    font-size: 5.5rem;
+    font-size: 5rem;
     margin-left: 5rem;
     position: absolute;
     letter-spacing: 5px;
