@@ -645,13 +645,23 @@ footer {
     .nav__brand {
         background: transparent;
         user-select: none;
+        font-size: 0.8rem;
+    }
+
+    .nav__brand span {
+        font-size: 2rem;
+        margin-right: -4px;
     }
 
 
     .nav__toggler  button{
         margin-left: -6rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 5rem;
+    }
+
+    .nav__contact li {
+        font-size: 0.7rem;
     }
 
     .nav__toggler .open-btn{
