@@ -413,7 +413,7 @@ footer {
         height: fit-content;
         flex-direction: column;
         gap: 0;
-        box-shadow: 0 0 1rem var(--color-black);
+        box-shadow: 0 0 2rem var(--color-black);
         display: none;
     }
 
