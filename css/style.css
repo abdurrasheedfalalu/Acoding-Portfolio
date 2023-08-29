@@ -605,12 +605,18 @@ footer {
         justify-content: space-between;
         align-items: center;
         height: 100%;
-        margin-left: 5rem;
+        /* margin-left: 1rem; */
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .nav__brand {
+        background: transparent;
     }
 
 
     .nav__toggler  button{
-        margin-left: -5rem;
+        margin-left: -4rem;
         font-size: 2rem;
         width: 5rem;
     }
