@@ -413,7 +413,7 @@ footer {
         height: fit-content;
         flex-direction: column;
         gap: 0;
-        box-shadow: 0 0 2rem var(--color-black);
+        box-shadow: 0 0 1rem var(--color-black);
         display: none;
     }
 
@@ -427,8 +427,40 @@ footer {
         text-align: center;
         padding: 1.5rem 0;
         background: var(--color-gray);
+        animation: animateNavItems 400ms linear forwards;
+        transform-origin: top right;
+        opacity: 0;
 
     }
+
+    .nav__menu li:nth-child(2) {
+        animation-delay: 200ms;
+    }
+
+    .nav__menu li:nth-child(3) {
+        animation-delay: 400ms;
+    }
+
+    .nav__menu li:nth-child(4) {
+        animation-delay: 600ms;
+    }
+
+    .nav__menu li:nth-child(5) {
+        animation-delay: 700ms;
+    }
+
+
+    @keyframes animateNavItems {
+        0% {
+            transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+        }
+
+        100% {
+            transform: rotateZ(0deg) rotateX(0) scale(1);
+            opacity: 1;
+        }
+    }
+
 
     .nav__toggler .open-btn{
         display: inline-block;
