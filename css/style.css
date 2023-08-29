@@ -612,11 +612,12 @@ footer {
 
     .nav__brand {
         background: transparent;
+        user-select: none;
     }
 
 
     .nav__toggler  button{
-        margin-left: -4rem;
+        margin-left: -6rem;
         font-size: 2rem;
         width: 5rem;
     }
@@ -647,7 +648,7 @@ footer {
 
 
     .main_section-title h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .main_section-title span {
@@ -696,9 +697,13 @@ footer {
 
 
     .icon__info {
-        gap: 7rem;
+        gap: 4.5rem;
         font-size: 2rem;
         margin: 0.5rem 1rem 0 -1rem;
+    }
+
+    .card:nth-child(3) h4 {
+        margin-left: -0.5rem;
     }
 
     /* ======================== END OF CARDS =================== */
@@ -709,14 +714,18 @@ footer {
         margin-top: 2rem;
     }
 
+
     .footer__section {
-        grid-template-columns: 1fr;
         text-align: center;
+        grid-template-columns: 1fr;
+        /* text-align: center; */
     }
 
     .footer__brand{
         font-size: 2.5rem;
-        margin-left: 12rem;
+        margin: -2rem auto 0;
+        /* margin-left: 12rem; */
+        
     }
 
     .footer__right span {
@@ -726,12 +735,14 @@ footer {
 
     .footer__address h3 {
         margin-bottom: 3rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .footer__contacts {
-        gap: 1rem;
-        margin-left: 12rem;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 12rem; */
     }
 
 
@@ -741,12 +752,19 @@ footer {
 
 
     .instgram__posts {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0rem;
-        margin-left: 5rem;
+        display: flex;
+        gap: 1rem;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin-left: 5rem; */
     }
 
     .ins h3 {
         font-size: 2.5rem;
+    }
+
+    .foot {
+        font-size: 0.8rem;
     }
 }
